@@ -1,0 +1,7 @@
+also regarding your issue with the kbplacer plugin, a workflow that I like to use is:
+use hierarchial sheets, one for each sensor
+load in one of the footprints to kbplacer
+disable diode auto-placement, disable auto-routing, remove "additional elements"
+run the plugin
+route the first sensor to its decoupling capacitors
+use the "replicate layouts" plugin to replicate the placement of the remaining components and the routing
