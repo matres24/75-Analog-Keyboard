@@ -2,25 +2,20 @@
 [kbplacer_plugin_action.py:66]: Python version: '3.11.5 (main, Aug 14 2024, 05:26:19) [MSC v.1939 64 bit (AMD64)]'
 [kbplacer_plugin_action.py:67]: KiCad version: 8.0.5 with 4.2.0 msw (phoenix) wxWidgets 3.2.5
 [kbplacer_dialog.py:585]: Language: pl
-[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "C:\\Users\\mwojc\\OneDrive\\Dokumenty\\KiCad\\8.0\\projects\\Klawiaturaduza\\monsgeek layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": false, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "LED{}", "position_option": "Relative", "position": null, "template_path": ""}, {"annotation_format": "C{}", "position_option": "Relative", "position": null, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": true, "outline_delta": 2.0}
+[kbplacer_plugin_action.py:75]: GUI state: {"layout_path": "E:\\Klawiaturaduza\\monsgeek layout.json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "SW{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Front"}, "template_path": ""}, "enable_diode_placement": false, "route_switches_with_diodes": false, "optimize_diodes_orientation": false, "diode_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"x": 5.08, "y": 3.03, "orientation": 90.0, "side": "Back"}, "template_path": ""}, "additional_elements": [{"annotation_format": "C10{}", "position_option": "Relative", "position": null, "template_path": ""}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 2.0}
 [key_placer.py:361]: Set key 1U distance: 19050000/19050000
 [key_placer.py:116]: Unexpected switch net position detected, each switch should have two unique nets unambiguously defining position in key matrix, switch-by-matrix association can't be used
 [key_placer.py:123]: Switches by nets: {}
 [key_placer.py:127]: Diodes by switch: {}
-[board_modifier.py:64]: Searching for SW1 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:64]: Searching for SW1 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
 [key_placer.py:557]: Looking for connection template between SW1 and other elements
 [board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
 [key_placer.py:601]: Got connection template: 
-[board_modifier.py:64]: Searching for SW1 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:64]: Searching for LED1 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:64]: Searching for SW1 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:64]: Searching for C101 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
 [board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
-[board_modifier.py:98]: Getting LED1 footprint position: (38100000, 38100000)
-[key_placer.py:865]: Element info updated: ElementInfo(annotation_format='LED{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=0.0, y=0.0, orientation=0.0, side=<Side.FRONT: 'Front'>), template_path='')
-[board_modifier.py:64]: Searching for SW1 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:64]: Searching for C1 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
-[board_modifier.py:98]: Getting C1 footprint position: (40900000, 38500000)
-[key_placer.py:865]: Element info updated: ElementInfo(annotation_format='C{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=2.8, y=0.4, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')
+[board_modifier.py:98]: Getting C101 footprint position: (42500000, 44480000)
+[key_placer.py:865]: Element info updated: ElementInfo(annotation_format='C10{}', position_option=<PositionOption.RELATIVE: 'Relative'>, position=ElementPosition(x=4.4, y=6.38, orientation=-90.0, side=<Side.BACK: 'Back'>), template_path='')
 [kle_serial.py:897]: User layout: [[{'a': 6}, 'Esc', {'x': 0.25}, 'F1', 'F2', 'F3', 'F4', {'x': 0.25}, 'F5', 'F6', 'F7', 'F8', {'x': 0.25}, 'F9', 'F10', 'F11', 'F12', {'x': 0.25, 'a': 4}, 'Del'], [{'y': 0.25}, '~\n`', '!\n1', '@\n2', '#\n3', '$\n4', '%\n5', '^\n6', '&\n7', '*\n8', '(\n9', ')\n0', '_\n-', '+\n=', {'w': 2}, 'Backspace\n\n\n2', {'x': 0.5}, 'Home'], [{'w': 1.5}, 'Tab\n\n\n1,5', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '{\n[', '}\n]', {'w': 1.5}, '|\n\\\n\n1,5', {'x': 0.5}, 'Page\n\n\n\n\n\nUp'], [{'w': 1.75}, 'Caps Lock\n\n\n1,75', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ':\n;', '"\n\'', {'w': 2.25}, 'Enter\n\n\n2,25', {'x': 0.5}, 'Page\n\n\n\n\n\nDown'], [{'w': 2.25}, 'Shift\n\n\n2,25', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', '<\n,', '>\n.', '?\n/', {'w': 1.75}, 'Shift\n\n\n1,75', {'x': 1.5}, 'End'], [{'y': -0.75, 'x': 14.25, 'a': 7}, '↑'], [{'y': -0.25, 'a': 4, 'w': 1.25}, 'Ctrl\n\n\n1,25', {'w': 1.25}, 'Win\n\n\n1,25', {'w': 1.25}, 'Alt\n\n\n1,25', {'a': 7, 'w': 6.25}, '', {'a': 4}, 'Alt', 'Fn', 'Ctrl'], [{'y': -0.75, 'x': 13.25, 'a': 7}, '←', '↓', '→']]
 [key_placer.py:661]: Layout offset: (28575000, 28575000)
 [board_modifier.py:85]: Setting SW1 footprint position: (38100000, 38100000)
@@ -106,496 +101,331 @@
 [board_modifier.py:85]: Setting SW81 footprint position: (309562500, 142875000)
 [board_modifier.py:85]: Setting SW82 footprint position: (328612500, 142875000)
 [key_placer.py:996]: Diode info: [ElementInfo(annotation_format='D{}', position_option=<PositionOption.UNCHANGED: 'Unchanged'>, position=ElementPosition(x=5.08, y=3.03, orientation=90.0, side=<Side.BACK: 'Back'>), template_path='')]
-[key_placer.py:774]: Placing additional elements for SW76
-[board_modifier.py:98]: Getting SW76 footprint position: (159543750, 138112500)
-[board_modifier.py:75]: Searching for optional LED76 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED76 footprint position: (159543750, 138112500)
-[board_modifier.py:75]: Searching for optional C76 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C76 footprint position: (162343750, 138512500)
-[key_placer.py:774]: Placing additional elements for SW75
-[board_modifier.py:98]: Getting SW75 footprint position: (88106250, 138112500)
-[board_modifier.py:75]: Searching for optional LED75 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED75 footprint position: (88106250, 138112500)
-[board_modifier.py:75]: Searching for optional C75 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C75 footprint position: (90906250, 138512500)
-[key_placer.py:774]: Placing additional elements for SW74
-[board_modifier.py:98]: Getting SW74 footprint position: (64293750, 138112500)
-[board_modifier.py:75]: Searching for optional LED74 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED74 footprint position: (64293750, 138112500)
-[board_modifier.py:75]: Searching for optional C74 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C74 footprint position: (67093750, 138512500)
-[key_placer.py:774]: Placing additional elements for SW73
-[board_modifier.py:98]: Getting SW73 footprint position: (40481250, 138112500)
-[board_modifier.py:75]: Searching for optional LED73 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED73 footprint position: (40481250, 138112500)
-[board_modifier.py:75]: Searching for optional C73 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C73 footprint position: (43281250, 138512500)
-[key_placer.py:774]: Placing additional elements for SW72
-[board_modifier.py:98]: Getting SW72 footprint position: (309562500, 123825000)
-[board_modifier.py:75]: Searching for optional LED72 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED72 footprint position: (309562500, 123825000)
-[board_modifier.py:75]: Searching for optional C72 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C72 footprint position: (312362500, 124225000)
 [key_placer.py:774]: Placing additional elements for SW70
 [board_modifier.py:98]: Getting SW70 footprint position: (278606250, 119062500)
-[board_modifier.py:75]: Searching for optional LED70 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED70 footprint position: (278606250, 119062500)
-[board_modifier.py:75]: Searching for optional C70 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C70 footprint position: (281406250, 119462500)
-[key_placer.py:774]: Placing additional elements for SW66
-[board_modifier.py:98]: Getting SW66 footprint position: (195262500, 119062500)
-[board_modifier.py:75]: Searching for optional LED66 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED66 footprint position: (195262500, 119062500)
-[board_modifier.py:75]: Searching for optional C66 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C66 footprint position: (198062500, 119462500)
-[key_placer.py:774]: Placing additional elements for SW65
-[board_modifier.py:98]: Getting SW65 footprint position: (176212500, 119062500)
-[board_modifier.py:75]: Searching for optional LED65 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED65 footprint position: (176212500, 119062500)
-[board_modifier.py:75]: Searching for optional C65 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C65 footprint position: (179012500, 119462500)
-[key_placer.py:774]: Placing additional elements for SW60
-[board_modifier.py:98]: Getting SW60 footprint position: (80962500, 119062500)
-[board_modifier.py:75]: Searching for optional LED60 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED60 footprint position: (80962500, 119062500)
-[board_modifier.py:75]: Searching for optional C60 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C60 footprint position: (83762500, 119462500)
-[key_placer.py:774]: Placing additional elements for SW59
-[board_modifier.py:98]: Getting SW59 footprint position: (50006250, 119062500)
-[board_modifier.py:75]: Searching for optional LED59 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED59 footprint position: (50006250, 119062500)
-[board_modifier.py:75]: Searching for optional C59 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C59 footprint position: (52806250, 119462500)
-[key_placer.py:774]: Placing additional elements for SW57
-[board_modifier.py:98]: Getting SW57 footprint position: (292893750, 100012500)
-[board_modifier.py:75]: Searching for optional LED57 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED57 footprint position: (292893750, 100012500)
-[board_modifier.py:75]: Searching for optional C57 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C57 footprint position: (295693750, 100412500)
-[key_placer.py:774]: Placing additional elements for SW51
-[board_modifier.py:98]: Getting SW51 footprint position: (166687500, 100012500)
-[board_modifier.py:75]: Searching for optional LED51 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED51 footprint position: (166687500, 100012500)
-[board_modifier.py:75]: Searching for optional C51 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C51 footprint position: (169487500, 100412500)
-[key_placer.py:774]: Placing additional elements for SW49
-[board_modifier.py:98]: Getting SW49 footprint position: (128587500, 100012500)
-[board_modifier.py:75]: Searching for optional LED49 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED49 footprint position: (128587500, 100012500)
-[board_modifier.py:75]: Searching for optional C49 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C49 footprint position: (131387500, 100412500)
-[key_placer.py:774]: Placing additional elements for SW48
-[board_modifier.py:98]: Getting SW48 footprint position: (109537500, 100012500)
-[board_modifier.py:75]: Searching for optional LED48 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED48 footprint position: (109537500, 100012500)
-[board_modifier.py:75]: Searching for optional C48 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C48 footprint position: (112337500, 100412500)
+[board_modifier.py:75]: Searching for optional C1070 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1070 footprint position: (283006250, 125442500)
+[key_placer.py:774]: Placing additional elements for SW74
+[board_modifier.py:98]: Getting SW74 footprint position: (64293750, 138112500)
+[board_modifier.py:75]: Searching for optional C1074 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1074 footprint position: (68693750, 144492500)
+[key_placer.py:774]: Placing additional elements for SW76
+[board_modifier.py:98]: Getting SW76 footprint position: (159543750, 138112500)
+[board_modifier.py:75]: Searching for optional C1076 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1076 footprint position: (163943750, 144492500)
 [key_placer.py:774]: Placing additional elements for SW45
 [board_modifier.py:98]: Getting SW45 footprint position: (45243750, 100012500)
-[board_modifier.py:75]: Searching for optional LED45 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED45 footprint position: (45243750, 100012500)
-[board_modifier.py:75]: Searching for optional C45 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C45 footprint position: (48043750, 100412500)
-[key_placer.py:774]: Placing additional elements for SW43
-[board_modifier.py:98]: Getting SW43 footprint position: (300037500, 80962500)
-[board_modifier.py:75]: Searching for optional LED43 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED43 footprint position: (300037500, 80962500)
-[board_modifier.py:75]: Searching for optional C43 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C43 footprint position: (302837500, 81362500)
-[key_placer.py:774]: Placing additional elements for SW69
-[board_modifier.py:98]: Getting SW69 footprint position: (252412500, 119062500)
-[board_modifier.py:75]: Searching for optional LED69 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED69 footprint position: (252412500, 119062500)
-[board_modifier.py:75]: Searching for optional C69 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C69 footprint position: (255212500, 119462500)
-[key_placer.py:774]: Placing additional elements for SW35
-[board_modifier.py:98]: Getting SW35 footprint position: (142875000, 80962500)
-[board_modifier.py:75]: Searching for optional LED35 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED35 footprint position: (142875000, 80962500)
-[board_modifier.py:75]: Searching for optional C35 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C35 footprint position: (145675000, 81362500)
-[key_placer.py:774]: Placing additional elements for SW34
-[board_modifier.py:98]: Getting SW34 footprint position: (123825000, 80962500)
-[board_modifier.py:75]: Searching for optional LED34 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED34 footprint position: (123825000, 80962500)
-[board_modifier.py:75]: Searching for optional C34 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C34 footprint position: (126625000, 81362500)
-[key_placer.py:774]: Placing additional elements for SW33
-[board_modifier.py:98]: Getting SW33 footprint position: (104775000, 80962500)
-[board_modifier.py:75]: Searching for optional LED33 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED33 footprint position: (104775000, 80962500)
-[board_modifier.py:75]: Searching for optional C33 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C33 footprint position: (107575000, 81362500)
-[key_placer.py:774]: Placing additional elements for SW32
-[board_modifier.py:98]: Getting SW32 footprint position: (85725000, 80962500)
-[board_modifier.py:75]: Searching for optional LED32 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED32 footprint position: (85725000, 80962500)
-[board_modifier.py:75]: Searching for optional C32 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C32 footprint position: (88525000, 81362500)
-[key_placer.py:774]: Placing additional elements for SW30
-[board_modifier.py:98]: Getting SW30 footprint position: (42862500, 80962500)
-[board_modifier.py:75]: Searching for optional LED30 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED30 footprint position: (42862500, 80962500)
-[board_modifier.py:75]: Searching for optional C30 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C30 footprint position: (45662500, 81362500)
-[key_placer.py:774]: Placing additional elements for SW29
-[board_modifier.py:98]: Getting SW29 footprint position: (333375000, 61912500)
-[board_modifier.py:75]: Searching for optional LED29 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED29 footprint position: (333375000, 61912500)
-[board_modifier.py:75]: Searching for optional C29 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C29 footprint position: (336175000, 62312500)
-[key_placer.py:774]: Placing additional elements for SW18
-[board_modifier.py:98]: Getting SW18 footprint position: (95250000, 61912500)
-[board_modifier.py:75]: Searching for optional LED18 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED18 footprint position: (95250000, 61912500)
-[board_modifier.py:75]: Searching for optional C18 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C18 footprint position: (98050000, 62312500)
-[key_placer.py:774]: Placing additional elements for SW16
-[board_modifier.py:98]: Getting SW16 footprint position: (57150000, 61912500)
-[board_modifier.py:75]: Searching for optional LED16 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED16 footprint position: (57150000, 61912500)
-[board_modifier.py:75]: Searching for optional C16 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C16 footprint position: (59950000, 62312500)
-[key_placer.py:774]: Placing additional elements for SW8
-[board_modifier.py:98]: Getting SW8 footprint position: (180975000, 38100000)
-[board_modifier.py:75]: Searching for optional LED8 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED8 footprint position: (180975000, 38100000)
-[board_modifier.py:75]: Searching for optional C8 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C8 footprint position: (183775000, 38500000)
-[key_placer.py:774]: Placing additional elements for SW1
-[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
-[board_modifier.py:75]: Searching for optional LED1 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED1 footprint position: (38100000, 38100000)
-[board_modifier.py:75]: Searching for optional C1 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C1 footprint position: (40900000, 38500000)
-[key_placer.py:774]: Placing additional elements for SW23
-[board_modifier.py:98]: Getting SW23 footprint position: (190500000, 61912500)
-[board_modifier.py:75]: Searching for optional LED23 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED23 footprint position: (190500000, 61912500)
-[board_modifier.py:75]: Searching for optional C23 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C23 footprint position: (193300000, 62312500)
-[key_placer.py:774]: Placing additional elements for SW68
-[board_modifier.py:98]: Getting SW68 footprint position: (233362500, 119062500)
-[board_modifier.py:75]: Searching for optional LED68 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED68 footprint position: (233362500, 119062500)
-[board_modifier.py:75]: Searching for optional C68 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C68 footprint position: (236162500, 119462500)
-[key_placer.py:774]: Placing additional elements for SW22
-[board_modifier.py:98]: Getting SW22 footprint position: (171450000, 61912500)
-[board_modifier.py:75]: Searching for optional LED22 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED22 footprint position: (171450000, 61912500)
-[board_modifier.py:75]: Searching for optional C22 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C22 footprint position: (174250000, 62312500)
-[key_placer.py:774]: Placing additional elements for SW17
-[board_modifier.py:98]: Getting SW17 footprint position: (76200000, 61912500)
-[board_modifier.py:75]: Searching for optional LED17 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED17 footprint position: (76200000, 61912500)
-[board_modifier.py:75]: Searching for optional C17 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C17 footprint position: (79000000, 62312500)
-[key_placer.py:774]: Placing additional elements for SW4
-[board_modifier.py:98]: Getting SW4 footprint position: (100012500, 38100000)
-[board_modifier.py:75]: Searching for optional LED4 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED4 footprint position: (100012500, 38100000)
-[board_modifier.py:75]: Searching for optional C4 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C4 footprint position: (102812500, 38500000)
-[key_placer.py:774]: Placing additional elements for SW6
-[board_modifier.py:98]: Getting SW6 footprint position: (142875000, 38100000)
-[board_modifier.py:75]: Searching for optional LED6 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED6 footprint position: (142875000, 38100000)
-[board_modifier.py:75]: Searching for optional C6 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C6 footprint position: (145675000, 38500000)
-[key_placer.py:774]: Placing additional elements for SW82
-[board_modifier.py:98]: Getting SW82 footprint position: (328612500, 142875000)
-[board_modifier.py:75]: Searching for optional LED82 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED82 footprint position: (328612500, 142875000)
-[board_modifier.py:75]: Searching for optional C82 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C82 footprint position: (331412500, 143275000)
-[key_placer.py:774]: Placing additional elements for SW21
-[board_modifier.py:98]: Getting SW21 footprint position: (152400000, 61912500)
-[board_modifier.py:75]: Searching for optional LED21 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED21 footprint position: (152400000, 61912500)
-[board_modifier.py:75]: Searching for optional C21 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C21 footprint position: (155200000, 62312500)
-[key_placer.py:774]: Placing additional elements for SW71
-[board_modifier.py:98]: Getting SW71 footprint position: (333375000, 119062500)
-[board_modifier.py:75]: Searching for optional LED71 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED71 footprint position: (333375000, 119062500)
-[board_modifier.py:75]: Searching for optional C71 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C71 footprint position: (336175000, 119462500)
-[key_placer.py:774]: Placing additional elements for SW14
-[board_modifier.py:98]: Getting SW14 footprint position: (304800000, 38100000)
-[board_modifier.py:75]: Searching for optional LED14 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED14 footprint position: (304800000, 38100000)
-[board_modifier.py:75]: Searching for optional C14 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C14 footprint position: (307600000, 38500000)
-[key_placer.py:774]: Placing additional elements for SW24
-[board_modifier.py:98]: Getting SW24 footprint position: (209550000, 61912500)
-[board_modifier.py:75]: Searching for optional LED24 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED24 footprint position: (209550000, 61912500)
-[board_modifier.py:75]: Searching for optional C24 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C24 footprint position: (212350000, 62312500)
+[board_modifier.py:75]: Searching for optional C1045 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1045 footprint position: (49643750, 106392500)
 [key_placer.py:774]: Placing additional elements for SW28
 [board_modifier.py:98]: Getting SW28 footprint position: (295275000, 61912500)
-[board_modifier.py:75]: Searching for optional LED28 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED28 footprint position: (295275000, 61912500)
-[board_modifier.py:75]: Searching for optional C28 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C28 footprint position: (298075000, 62312500)
+[board_modifier.py:75]: Searching for optional C1028 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1028 footprint position: (299675000, 68292500)
+[key_placer.py:774]: Placing additional elements for SW30
+[board_modifier.py:98]: Getting SW30 footprint position: (42862500, 80962500)
+[board_modifier.py:75]: Searching for optional C1030 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1030 footprint position: (47262500, 87342500)
+[key_placer.py:774]: Placing additional elements for SW73
+[board_modifier.py:98]: Getting SW73 footprint position: (40481250, 138112500)
+[board_modifier.py:75]: Searching for optional C1073 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1073 footprint position: (44881250, 144492500)
+[key_placer.py:774]: Placing additional elements for SW59
+[board_modifier.py:98]: Getting SW59 footprint position: (50006250, 119062500)
+[board_modifier.py:75]: Searching for optional C1059 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1059 footprint position: (54406250, 125442500)
+[key_placer.py:774]: Placing additional elements for SW57
+[board_modifier.py:98]: Getting SW57 footprint position: (292893750, 100012500)
+[board_modifier.py:75]: Searching for optional C1057 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1057 footprint position: (297293750, 106392500)
+[key_placer.py:774]: Placing additional elements for SW75
+[board_modifier.py:98]: Getting SW75 footprint position: (88106250, 138112500)
+[board_modifier.py:75]: Searching for optional C1075 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1075 footprint position: (92506250, 144492500)
+[key_placer.py:774]: Placing additional elements for SW43
+[board_modifier.py:98]: Getting SW43 footprint position: (300037500, 80962500)
+[board_modifier.py:75]: Searching for optional C1043 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1043 footprint position: (304437500, 87342500)
+[key_placer.py:774]: Placing additional elements for SW33
+[board_modifier.py:98]: Getting SW33 footprint position: (104775000, 80962500)
+[board_modifier.py:75]: Searching for optional C1033 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1033 footprint position: (109175000, 87342500)
+[key_placer.py:774]: Placing additional elements for SW23
+[board_modifier.py:98]: Getting SW23 footprint position: (190500000, 61912500)
+[board_modifier.py:75]: Searching for optional C1023 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1023 footprint position: (194900000, 68292500)
+[key_placer.py:774]: Placing additional elements for SW68
+[board_modifier.py:98]: Getting SW68 footprint position: (233362500, 119062500)
+[board_modifier.py:75]: Searching for optional C1068 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1068 footprint position: (237762500, 125442500)
+[key_placer.py:774]: Placing additional elements for SW22
+[board_modifier.py:98]: Getting SW22 footprint position: (171450000, 61912500)
+[board_modifier.py:75]: Searching for optional C1022 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1022 footprint position: (175850000, 68292500)
+[key_placer.py:774]: Placing additional elements for SW17
+[board_modifier.py:98]: Getting SW17 footprint position: (76200000, 61912500)
+[board_modifier.py:75]: Searching for optional C1017 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1017 footprint position: (80600000, 68292500)
+[key_placer.py:774]: Placing additional elements for SW49
+[board_modifier.py:98]: Getting SW49 footprint position: (128587500, 100012500)
+[board_modifier.py:75]: Searching for optional C1049 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1049 footprint position: (132987500, 106392500)
+[key_placer.py:774]: Placing additional elements for SW34
+[board_modifier.py:98]: Getting SW34 footprint position: (123825000, 80962500)
+[board_modifier.py:75]: Searching for optional C1034 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1034 footprint position: (128225000, 87342500)
+[key_placer.py:774]: Placing additional elements for SW4
+[board_modifier.py:98]: Getting SW4 footprint position: (100012500, 38100000)
+[board_modifier.py:75]: Searching for optional C104 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C104 footprint position: (104412500, 44480000)
+[key_placer.py:774]: Placing additional elements for SW6
+[board_modifier.py:98]: Getting SW6 footprint position: (142875000, 38100000)
+[board_modifier.py:75]: Searching for optional C106 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C106 footprint position: (147275000, 44480000)
+[key_placer.py:774]: Placing additional elements for SW82
+[board_modifier.py:98]: Getting SW82 footprint position: (328612500, 142875000)
+[board_modifier.py:75]: Searching for optional C1082 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1082 footprint position: (333012500, 149255000)
+[key_placer.py:774]: Placing additional elements for SW32
+[board_modifier.py:98]: Getting SW32 footprint position: (85725000, 80962500)
+[board_modifier.py:75]: Searching for optional C1032 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1032 footprint position: (90125000, 87342500)
+[key_placer.py:774]: Placing additional elements for SW21
+[board_modifier.py:98]: Getting SW21 footprint position: (152400000, 61912500)
+[board_modifier.py:75]: Searching for optional C1021 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1021 footprint position: (156800000, 68292500)
+[key_placer.py:774]: Placing additional elements for SW71
+[board_modifier.py:98]: Getting SW71 footprint position: (333375000, 119062500)
+[board_modifier.py:75]: Searching for optional C1071 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1071 footprint position: (337775000, 125442500)
+[key_placer.py:774]: Placing additional elements for SW8
+[board_modifier.py:98]: Getting SW8 footprint position: (180975000, 38100000)
+[board_modifier.py:75]: Searching for optional C108 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C108 footprint position: (185375000, 44480000)
+[key_placer.py:774]: Placing additional elements for SW1
+[board_modifier.py:98]: Getting SW1 footprint position: (38100000, 38100000)
+[board_modifier.py:75]: Searching for optional C101 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C101 footprint position: (42500000, 44480000)
+[key_placer.py:774]: Placing additional elements for SW14
+[board_modifier.py:98]: Getting SW14 footprint position: (304800000, 38100000)
+[board_modifier.py:75]: Searching for optional C1014 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1014 footprint position: (309200000, 44480000)
+[key_placer.py:774]: Placing additional elements for SW24
+[board_modifier.py:98]: Getting SW24 footprint position: (209550000, 61912500)
+[board_modifier.py:75]: Searching for optional C1024 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1024 footprint position: (213950000, 68292500)
+[key_placer.py:774]: Placing additional elements for SW16
+[board_modifier.py:98]: Getting SW16 footprint position: (57150000, 61912500)
+[board_modifier.py:75]: Searching for optional C1016 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1016 footprint position: (61550000, 68292500)
+[key_placer.py:774]: Placing additional elements for SW29
+[board_modifier.py:98]: Getting SW29 footprint position: (333375000, 61912500)
+[board_modifier.py:75]: Searching for optional C1029 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1029 footprint position: (337775000, 68292500)
 [key_placer.py:774]: Placing additional elements for SW79
 [board_modifier.py:98]: Getting SW79 footprint position: (266700000, 138112500)
-[board_modifier.py:75]: Searching for optional LED79 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED79 footprint position: (266700000, 138112500)
-[board_modifier.py:75]: Searching for optional C79 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C79 footprint position: (269500000, 138512500)
+[board_modifier.py:75]: Searching for optional C1079 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1079 footprint position: (271100000, 144492500)
 [key_placer.py:774]: Placing additional elements for SW46
 [board_modifier.py:98]: Getting SW46 footprint position: (71437500, 100012500)
-[board_modifier.py:75]: Searching for optional LED46 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED46 footprint position: (71437500, 100012500)
-[board_modifier.py:75]: Searching for optional C46 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C46 footprint position: (74237500, 100412500)
+[board_modifier.py:75]: Searching for optional C1046 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1046 footprint position: (75837500, 106392500)
 [key_placer.py:774]: Placing additional elements for SW12
 [board_modifier.py:98]: Getting SW12 footprint position: (261937500, 38100000)
-[board_modifier.py:75]: Searching for optional LED12 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED12 footprint position: (261937500, 38100000)
-[board_modifier.py:75]: Searching for optional C12 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C12 footprint position: (264737500, 38500000)
+[board_modifier.py:75]: Searching for optional C1012 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1012 footprint position: (266337500, 44480000)
+[key_placer.py:774]: Placing additional elements for SW60
+[board_modifier.py:98]: Getting SW60 footprint position: (80962500, 119062500)
+[board_modifier.py:75]: Searching for optional C1060 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1060 footprint position: (85362500, 125442500)
 [key_placer.py:774]: Placing additional elements for SW64
 [board_modifier.py:98]: Getting SW64 footprint position: (157162500, 119062500)
-[board_modifier.py:75]: Searching for optional LED64 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED64 footprint position: (157162500, 119062500)
-[board_modifier.py:75]: Searching for optional C64 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C64 footprint position: (159962500, 119462500)
+[board_modifier.py:75]: Searching for optional C1064 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1064 footprint position: (161562500, 125442500)
 [key_placer.py:774]: Placing additional elements for SW36
 [board_modifier.py:98]: Getting SW36 footprint position: (161925000, 80962500)
-[board_modifier.py:75]: Searching for optional LED36 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED36 footprint position: (161925000, 80962500)
-[board_modifier.py:75]: Searching for optional C36 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C36 footprint position: (164725000, 81362500)
+[board_modifier.py:75]: Searching for optional C1036 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1036 footprint position: (166325000, 87342500)
 [key_placer.py:774]: Placing additional elements for SW62
 [board_modifier.py:98]: Getting SW62 footprint position: (119062500, 119062500)
-[board_modifier.py:75]: Searching for optional LED62 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED62 footprint position: (119062500, 119062500)
-[board_modifier.py:75]: Searching for optional C62 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C62 footprint position: (121862500, 119462500)
+[board_modifier.py:75]: Searching for optional C1062 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1062 footprint position: (123462500, 125442500)
 [key_placer.py:774]: Placing additional elements for SW20
 [board_modifier.py:98]: Getting SW20 footprint position: (133350000, 61912500)
-[board_modifier.py:75]: Searching for optional LED20 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED20 footprint position: (133350000, 61912500)
-[board_modifier.py:75]: Searching for optional C20 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C20 footprint position: (136150000, 62312500)
+[board_modifier.py:75]: Searching for optional C1020 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1020 footprint position: (137750000, 68292500)
 [key_placer.py:774]: Placing additional elements for SW44
 [board_modifier.py:98]: Getting SW44 footprint position: (333375000, 80962500)
-[board_modifier.py:75]: Searching for optional LED44 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED44 footprint position: (333375000, 80962500)
-[board_modifier.py:75]: Searching for optional C44 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C44 footprint position: (336175000, 81362500)
+[board_modifier.py:75]: Searching for optional C1044 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1044 footprint position: (337775000, 87342500)
 [key_placer.py:774]: Placing additional elements for SW19
 [board_modifier.py:98]: Getting SW19 footprint position: (114300000, 61912500)
-[board_modifier.py:75]: Searching for optional LED19 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED19 footprint position: (114300000, 61912500)
-[board_modifier.py:75]: Searching for optional C19 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C19 footprint position: (117100000, 62312500)
+[board_modifier.py:75]: Searching for optional C1019 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1019 footprint position: (118700000, 68292500)
+[key_placer.py:774]: Placing additional elements for SW51
+[board_modifier.py:98]: Getting SW51 footprint position: (166687500, 100012500)
+[board_modifier.py:75]: Searching for optional C1051 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1051 footprint position: (171087500, 106392500)
 [key_placer.py:774]: Placing additional elements for SW81
 [board_modifier.py:98]: Getting SW81 footprint position: (309562500, 142875000)
-[board_modifier.py:75]: Searching for optional LED81 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED81 footprint position: (309562500, 142875000)
-[board_modifier.py:75]: Searching for optional C81 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C81 footprint position: (312362500, 143275000)
+[board_modifier.py:75]: Searching for optional C1081 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1081 footprint position: (313962500, 149255000)
 [key_placer.py:774]: Placing additional elements for SW53
 [board_modifier.py:98]: Getting SW53 footprint position: (204787500, 100012500)
-[board_modifier.py:75]: Searching for optional LED53 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED53 footprint position: (204787500, 100012500)
-[board_modifier.py:75]: Searching for optional C53 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C53 footprint position: (207587500, 100412500)
+[board_modifier.py:75]: Searching for optional C1053 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1053 footprint position: (209187500, 106392500)
 [key_placer.py:774]: Placing additional elements for SW61
 [board_modifier.py:98]: Getting SW61 footprint position: (100012500, 119062500)
-[board_modifier.py:75]: Searching for optional LED61 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED61 footprint position: (100012500, 119062500)
-[board_modifier.py:75]: Searching for optional C61 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C61 footprint position: (102812500, 119462500)
+[board_modifier.py:75]: Searching for optional C1061 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1061 footprint position: (104412500, 125442500)
 [key_placer.py:774]: Placing additional elements for SW52
 [board_modifier.py:98]: Getting SW52 footprint position: (185737500, 100012500)
-[board_modifier.py:75]: Searching for optional LED52 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED52 footprint position: (185737500, 100012500)
-[board_modifier.py:75]: Searching for optional C52 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C52 footprint position: (188537500, 100412500)
+[board_modifier.py:75]: Searching for optional C1052 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1052 footprint position: (190137500, 106392500)
+[key_placer.py:774]: Placing additional elements for SW65
+[board_modifier.py:98]: Getting SW65 footprint position: (176212500, 119062500)
+[board_modifier.py:75]: Searching for optional C1065 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1065 footprint position: (180612500, 125442500)
 [key_placer.py:774]: Placing additional elements for SW9
 [board_modifier.py:98]: Getting SW9 footprint position: (200025000, 38100000)
-[board_modifier.py:75]: Searching for optional LED9 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED9 footprint position: (200025000, 38100000)
-[board_modifier.py:75]: Searching for optional C9 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C9 footprint position: (202825000, 38500000)
+[board_modifier.py:75]: Searching for optional C109 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C109 footprint position: (204425000, 44480000)
 [key_placer.py:774]: Placing additional elements for SW67
 [board_modifier.py:98]: Getting SW67 footprint position: (214312500, 119062500)
-[board_modifier.py:75]: Searching for optional LED67 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED67 footprint position: (214312500, 119062500)
-[board_modifier.py:75]: Searching for optional C67 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C67 footprint position: (217112500, 119462500)
+[board_modifier.py:75]: Searching for optional C1067 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1067 footprint position: (218712500, 125442500)
 [key_placer.py:774]: Placing additional elements for SW56
 [board_modifier.py:98]: Getting SW56 footprint position: (261937500, 100012500)
-[board_modifier.py:75]: Searching for optional LED56 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED56 footprint position: (261937500, 100012500)
-[board_modifier.py:75]: Searching for optional C56 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C56 footprint position: (264737500, 100412500)
+[board_modifier.py:75]: Searching for optional C1056 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1056 footprint position: (266337500, 106392500)
+[key_placer.py:774]: Placing additional elements for SW69
+[board_modifier.py:98]: Getting SW69 footprint position: (252412500, 119062500)
+[board_modifier.py:75]: Searching for optional C1069 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1069 footprint position: (256812500, 125442500)
 [key_placer.py:774]: Placing additional elements for SW3
 [board_modifier.py:98]: Getting SW3 footprint position: (80962500, 38100000)
-[board_modifier.py:75]: Searching for optional LED3 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED3 footprint position: (80962500, 38100000)
-[board_modifier.py:75]: Searching for optional C3 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C3 footprint position: (83762500, 38500000)
+[board_modifier.py:75]: Searching for optional C103 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C103 footprint position: (85362500, 44480000)
 [key_placer.py:774]: Placing additional elements for SW54
 [board_modifier.py:98]: Getting SW54 footprint position: (223837500, 100012500)
-[board_modifier.py:75]: Searching for optional LED54 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED54 footprint position: (223837500, 100012500)
-[board_modifier.py:75]: Searching for optional C54 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C54 footprint position: (226637500, 100412500)
+[board_modifier.py:75]: Searching for optional C1054 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1054 footprint position: (228237500, 106392500)
 [key_placer.py:774]: Placing additional elements for SW40
 [board_modifier.py:98]: Getting SW40 footprint position: (238125000, 80962500)
-[board_modifier.py:75]: Searching for optional LED40 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED40 footprint position: (238125000, 80962500)
-[board_modifier.py:75]: Searching for optional C40 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C40 footprint position: (240925000, 81362500)
+[board_modifier.py:75]: Searching for optional C1040 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1040 footprint position: (242525000, 87342500)
 [key_placer.py:774]: Placing additional elements for SW25
 [board_modifier.py:98]: Getting SW25 footprint position: (228600000, 61912500)
-[board_modifier.py:75]: Searching for optional LED25 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED25 footprint position: (228600000, 61912500)
-[board_modifier.py:75]: Searching for optional C25 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C25 footprint position: (231400000, 62312500)
+[board_modifier.py:75]: Searching for optional C1025 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1025 footprint position: (233000000, 68292500)
+[key_placer.py:774]: Placing additional elements for SW66
+[board_modifier.py:98]: Getting SW66 footprint position: (195262500, 119062500)
+[board_modifier.py:75]: Searching for optional C1066 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1066 footprint position: (199662500, 125442500)
 [key_placer.py:774]: Placing additional elements for SW15
 [board_modifier.py:98]: Getting SW15 footprint position: (38100000, 61912500)
-[board_modifier.py:75]: Searching for optional LED15 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED15 footprint position: (38100000, 61912500)
-[board_modifier.py:75]: Searching for optional C15 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C15 footprint position: (40900000, 62312500)
+[board_modifier.py:75]: Searching for optional C1015 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1015 footprint position: (42500000, 68292500)
 [key_placer.py:774]: Placing additional elements for SW78
 [board_modifier.py:98]: Getting SW78 footprint position: (247650000, 138112500)
-[board_modifier.py:75]: Searching for optional LED78 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED78 footprint position: (247650000, 138112500)
-[board_modifier.py:75]: Searching for optional C78 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C78 footprint position: (250450000, 138512500)
+[board_modifier.py:75]: Searching for optional C1078 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1078 footprint position: (252050000, 144492500)
+[key_placer.py:774]: Placing additional elements for SW35
+[board_modifier.py:98]: Getting SW35 footprint position: (142875000, 80962500)
+[board_modifier.py:75]: Searching for optional C1035 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1035 footprint position: (147275000, 87342500)
 [key_placer.py:774]: Placing additional elements for SW5
 [board_modifier.py:98]: Getting SW5 footprint position: (119062500, 38100000)
-[board_modifier.py:75]: Searching for optional LED5 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED5 footprint position: (119062500, 38100000)
-[board_modifier.py:75]: Searching for optional C5 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C5 footprint position: (121862500, 38500000)
+[board_modifier.py:75]: Searching for optional C105 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C105 footprint position: (123462500, 44480000)
 [key_placer.py:774]: Placing additional elements for SW63
 [board_modifier.py:98]: Getting SW63 footprint position: (138112500, 119062500)
-[board_modifier.py:75]: Searching for optional LED63 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED63 footprint position: (138112500, 119062500)
-[board_modifier.py:75]: Searching for optional C63 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C63 footprint position: (140912500, 119462500)
+[board_modifier.py:75]: Searching for optional C1063 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1063 footprint position: (142512500, 125442500)
 [key_placer.py:774]: Placing additional elements for SW77
 [board_modifier.py:98]: Getting SW77 footprint position: (228600000, 138112500)
-[board_modifier.py:75]: Searching for optional LED77 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED77 footprint position: (228600000, 138112500)
-[board_modifier.py:75]: Searching for optional C77 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C77 footprint position: (231400000, 138512500)
+[board_modifier.py:75]: Searching for optional C1077 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1077 footprint position: (233000000, 144492500)
 [key_placer.py:774]: Placing additional elements for SW31
 [board_modifier.py:98]: Getting SW31 footprint position: (66675000, 80962500)
-[board_modifier.py:75]: Searching for optional LED31 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED31 footprint position: (66675000, 80962500)
-[board_modifier.py:75]: Searching for optional C31 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C31 footprint position: (69475000, 81362500)
+[board_modifier.py:75]: Searching for optional C1031 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1031 footprint position: (71075000, 87342500)
 [key_placer.py:774]: Placing additional elements for SW39
 [board_modifier.py:98]: Getting SW39 footprint position: (219075000, 80962500)
-[board_modifier.py:75]: Searching for optional LED39 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED39 footprint position: (219075000, 80962500)
-[board_modifier.py:75]: Searching for optional C39 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C39 footprint position: (221875000, 81362500)
+[board_modifier.py:75]: Searching for optional C1039 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1039 footprint position: (223475000, 87342500)
 [key_placer.py:774]: Placing additional elements for SW38
 [board_modifier.py:98]: Getting SW38 footprint position: (200025000, 80962500)
-[board_modifier.py:75]: Searching for optional LED38 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED38 footprint position: (200025000, 80962500)
-[board_modifier.py:75]: Searching for optional C38 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C38 footprint position: (202825000, 81362500)
+[board_modifier.py:75]: Searching for optional C1038 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1038 footprint position: (204425000, 87342500)
 [key_placer.py:774]: Placing additional elements for SW13
 [board_modifier.py:98]: Getting SW13 footprint position: (280987500, 38100000)
-[board_modifier.py:75]: Searching for optional LED13 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED13 footprint position: (280987500, 38100000)
-[board_modifier.py:75]: Searching for optional C13 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C13 footprint position: (283787500, 38500000)
+[board_modifier.py:75]: Searching for optional C1013 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1013 footprint position: (285387500, 44480000)
 [key_placer.py:774]: Placing additional elements for SW41
 [board_modifier.py:98]: Getting SW41 footprint position: (257175000, 80962500)
-[board_modifier.py:75]: Searching for optional LED41 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED41 footprint position: (257175000, 80962500)
-[board_modifier.py:75]: Searching for optional C41 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C41 footprint position: (259975000, 81362500)
+[board_modifier.py:75]: Searching for optional C1041 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1041 footprint position: (261575000, 87342500)
 [key_placer.py:774]: Placing additional elements for SW50
 [board_modifier.py:98]: Getting SW50 footprint position: (147637500, 100012500)
-[board_modifier.py:75]: Searching for optional LED50 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED50 footprint position: (147637500, 100012500)
-[board_modifier.py:75]: Searching for optional C50 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C50 footprint position: (150437500, 100412500)
+[board_modifier.py:75]: Searching for optional C1050 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1050 footprint position: (152037500, 106392500)
 [key_placer.py:774]: Placing additional elements for SW42
 [board_modifier.py:98]: Getting SW42 footprint position: (276225000, 80962500)
-[board_modifier.py:75]: Searching for optional LED42 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED42 footprint position: (276225000, 80962500)
-[board_modifier.py:75]: Searching for optional C42 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C42 footprint position: (279025000, 81362500)
+[board_modifier.py:75]: Searching for optional C1042 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1042 footprint position: (280625000, 87342500)
 [key_placer.py:774]: Placing additional elements for SW11
 [board_modifier.py:98]: Getting SW11 footprint position: (242887500, 38100000)
-[board_modifier.py:75]: Searching for optional LED11 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED11 footprint position: (242887500, 38100000)
-[board_modifier.py:75]: Searching for optional C11 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C11 footprint position: (245687500, 38500000)
+[board_modifier.py:75]: Searching for optional C1011 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1011 footprint position: (247287500, 44480000)
 [key_placer.py:774]: Placing additional elements for SW47
 [board_modifier.py:98]: Getting SW47 footprint position: (90487500, 100012500)
-[board_modifier.py:75]: Searching for optional LED47 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED47 footprint position: (90487500, 100012500)
-[board_modifier.py:75]: Searching for optional C47 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C47 footprint position: (93287500, 100412500)
+[board_modifier.py:75]: Searching for optional C1047 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1047 footprint position: (94887500, 106392500)
 [key_placer.py:774]: Placing additional elements for SW37
 [board_modifier.py:98]: Getting SW37 footprint position: (180975000, 80962500)
-[board_modifier.py:75]: Searching for optional LED37 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED37 footprint position: (180975000, 80962500)
-[board_modifier.py:75]: Searching for optional C37 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C37 footprint position: (183775000, 81362500)
+[board_modifier.py:75]: Searching for optional C1037 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1037 footprint position: (185375000, 87342500)
+[key_placer.py:774]: Placing additional elements for SW48
+[board_modifier.py:98]: Getting SW48 footprint position: (109537500, 100012500)
+[board_modifier.py:75]: Searching for optional C1048 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1048 footprint position: (113937500, 106392500)
 [key_placer.py:774]: Placing additional elements for SW2
 [board_modifier.py:98]: Getting SW2 footprint position: (61912500, 38100000)
-[board_modifier.py:75]: Searching for optional LED2 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED2 footprint position: (61912500, 38100000)
-[board_modifier.py:75]: Searching for optional C2 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C2 footprint position: (64712500, 38500000)
+[board_modifier.py:75]: Searching for optional C102 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C102 footprint position: (66312500, 44480000)
 [key_placer.py:774]: Placing additional elements for SW80
 [board_modifier.py:98]: Getting SW80 footprint position: (290512500, 142875000)
-[board_modifier.py:75]: Searching for optional LED80 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED80 footprint position: (290512500, 142875000)
-[board_modifier.py:75]: Searching for optional C80 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C80 footprint position: (293312500, 143275000)
+[board_modifier.py:75]: Searching for optional C1080 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1080 footprint position: (294912500, 149255000)
 [key_placer.py:774]: Placing additional elements for SW7
 [board_modifier.py:98]: Getting SW7 footprint position: (161925000, 38100000)
-[board_modifier.py:75]: Searching for optional LED7 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED7 footprint position: (161925000, 38100000)
-[board_modifier.py:75]: Searching for optional C7 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C7 footprint position: (164725000, 38500000)
+[board_modifier.py:75]: Searching for optional C107 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C107 footprint position: (166325000, 44480000)
 [key_placer.py:774]: Placing additional elements for SW10
 [board_modifier.py:98]: Getting SW10 footprint position: (223837500, 38100000)
-[board_modifier.py:75]: Searching for optional LED10 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED10 footprint position: (223837500, 38100000)
-[board_modifier.py:75]: Searching for optional C10 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C10 footprint position: (226637500, 38500000)
+[board_modifier.py:75]: Searching for optional C1010 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1010 footprint position: (228237500, 44480000)
+[key_placer.py:774]: Placing additional elements for SW72
+[board_modifier.py:98]: Getting SW72 footprint position: (309562500, 123825000)
+[board_modifier.py:75]: Searching for optional C1072 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1072 footprint position: (313962500, 130205000)
 [key_placer.py:774]: Placing additional elements for SW27
 [board_modifier.py:98]: Getting SW27 footprint position: (266700000, 61912500)
-[board_modifier.py:75]: Searching for optional LED27 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED27 footprint position: (266700000, 61912500)
-[board_modifier.py:75]: Searching for optional C27 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C27 footprint position: (269500000, 62312500)
+[board_modifier.py:75]: Searching for optional C1027 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1027 footprint position: (271100000, 68292500)
+[key_placer.py:774]: Placing additional elements for SW18
+[board_modifier.py:98]: Getting SW18 footprint position: (95250000, 61912500)
+[board_modifier.py:75]: Searching for optional C1018 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1018 footprint position: (99650000, 68292500)
 [key_placer.py:774]: Placing additional elements for SW55
 [board_modifier.py:98]: Getting SW55 footprint position: (242887500, 100012500)
-[board_modifier.py:75]: Searching for optional LED55 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED55 footprint position: (242887500, 100012500)
-[board_modifier.py:75]: Searching for optional C55 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C55 footprint position: (245687500, 100412500)
+[board_modifier.py:75]: Searching for optional C1055 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1055 footprint position: (247287500, 106392500)
 [key_placer.py:774]: Placing additional elements for SW26
 [board_modifier.py:98]: Getting SW26 footprint position: (247650000, 61912500)
-[board_modifier.py:75]: Searching for optional LED26 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED26 footprint position: (247650000, 61912500)
-[board_modifier.py:75]: Searching for optional C26 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C26 footprint position: (250450000, 62312500)
+[board_modifier.py:75]: Searching for optional C1026 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1026 footprint position: (252050000, 68292500)
 [key_placer.py:774]: Placing additional elements for SW58
 [board_modifier.py:98]: Getting SW58 footprint position: (333375000, 100012500)
-[board_modifier.py:75]: Searching for optional LED58 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting LED58 footprint position: (333375000, 100012500)
-[board_modifier.py:75]: Searching for optional C58 footprint in C:\Users\mwojc\OneDrive\Dokumenty\KiCad\8.0\projects\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
-[board_modifier.py:85]: Setting C58 footprint position: (336175000, 100412500)
-[edge_generator.py:135]: Running board edge generation around footprints with annotation matching 'SW{}' format
+[board_modifier.py:75]: Searching for optional C1058 footprint in E:\Klawiaturaduza\DuzaKlawiatura\DuzaKlawiatura.kicad_pcb
+[board_modifier.py:85]: Setting C1058 footprint position: (337775000, 106392500)
